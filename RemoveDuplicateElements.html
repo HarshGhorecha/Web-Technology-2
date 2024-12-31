@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Duplicate Elements In Array</title>
+</head>
+<body>
+    <script>
+    document.write("<h1>Remove Duplicate Elements In Array = JS Program </h1>");
+
+    let n = Number(prompt("Enter Length of Array: "));
+
+    let array = [];
+    for(let i = 0; i<n; i++)
+    {
+        array.push(Number(prompt("Enter Elements Of Array["+i+"]: ")));
+    }
+
+    let newArray = [...new Set(array)];
+
+    document.write("<h3>Orignal Array:</h3>");
+    for(i=0; i<n; i++)
+    {
+        document.write(array[i] + "<br>");
+    }
+
+    document.write("<h3>Updated Array: </h3>");
+    document.write(newArray.join(","));
+    </script>
+</body>
+</html>
