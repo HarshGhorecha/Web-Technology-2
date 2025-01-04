@@ -1,4 +1,4 @@
-//Create a webapp in NodeJS which reads ƒles like about.txt, contact.txt and display it using http core module.
+//Create a webapp in NodeJS which reads ƒles like about.txt, contact.txt and display it using http core module. 
 const http = require('http');
 const fs = require('fs');
 const { log } = require('console');
