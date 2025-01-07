@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Styles -->
+    <style>
+        .hero-section {
+            background-color:#0b1120;
+            padding: 60px 0;
+        }
+        .about{
+            
+            background-color:#0b1120;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .footer {
+            background-color: #0b1120 ;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section (Header) -->
+    <div class="hero-section text-center text-light">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">Hi, I'm Harsh Ghorecha. I'm a passionate Web Develpoment.</p>
+            <a href="#about" class="btn btn-primary  btn-lg "style="background-color: #00bcd4;">Learn More</a>
+            
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>About Me</h2>
+                    <p>I am a web developer with a passion for creating beautiful, functional websites. I specialize in front-end technologies, including HTML, CSS, JavaScript, and Bootstrap. I love to learn new technologies and constantly improve my skills.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="Harsh Photo.jpeg" alt="Profile Image" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Porjects</h2>
+            <div class="row">
+                <!-- Portfolio Item 1 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="bus pass project.jfif" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Bus Pass Managment System</h5>
+                            <p class="card-text">The Bus Pass Management System is a web-based application built using HTML, CSS, JavaScript, and PHP to streamline the process of issuing and managing bus passes. It enables users to apply for, renew, and track their passes, while providing administrators with tools to manage user data and approve applications efficiently.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 2 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="pet shop.jfif" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Pet Shop</h5>
+                            <p class="card-text">The Pet Shop project is an e-commerce website where users can buy pet products such as food, accessories, toys, and more. It features a user-friendly interface for browsing and secure checkout, making it easy for pet owners to shop for their pets' needs.
+</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item 3 -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="travel management.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Travel managment System</h5>
+                            <p class="card-text">The Travel Management System is a web-based application designed to simplify the process of planning and managing travel. It allows users to book tickets, plan itineraries, and manage accommodations. The system provides administrators with tools to manage travel packages, track bookings, and generate reports efficiently.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>&copy; 2024 Harsh Ghorecha. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS & Dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
